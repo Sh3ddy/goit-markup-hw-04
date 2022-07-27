@@ -171,10 +171,15 @@ body {
     color: #FFFFFF;
     padding-bottom: 20px;
 }
-.agitation-panel {
-    padding-top: 50px;
-    padding-left: 70px;
+.container-footer {
+    display: flex;
 }
+.agitation-panel {
+    padding-top: 40px;
+    padding-left: 70px;
+
+}
+
 .network-bg {
     background: rgba(255, 255, 255, 0.1);
     border-radius: 20px;
@@ -231,7 +236,7 @@ body {
 }
 .customer-list {
     display:flex;
-    padding-bottom: 94px;
+    margin-bottom: 94px;
     cursor: pointer;
     justify-content: center;
 }
